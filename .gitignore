@@ -1,0 +1,29 @@
+# Fichiers de compilation C / Embarqué
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+
+# Répertoires de compilation (CubeIDE / Make / CMake)
+Debug/
+Release/
+build/
+
+# Configuration locale VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Fichiers temporaires et de sauvegarde
+*.log
+*.tmp
+*.bak
+*~
+
+# Fichiers système
+.DS_Store
+Thumbs.db
